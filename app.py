@@ -11,9 +11,9 @@ daysdict = {0:"Saturday",
 			5:"Thursday",
 			6:"Friday"}
 
-day = input("Enter the day : ")
-month = input("Enter the month : ")
-year = input("Enter the year : ")
+day = input("Enter the Day : ")
+month = input("Enter the Month : ")
+year = input("Enter the Year : ")
 
 def result():
 	century = 6 - (2 * (int(year[:2]) % 4)) 
